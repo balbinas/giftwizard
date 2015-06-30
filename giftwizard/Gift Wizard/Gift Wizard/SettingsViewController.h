@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingsViewController : UIViewController
-- (IBAction)LogOutFB:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *btLogOut;
+@interface SettingsViewController : UITableViewController
+- (void)LogOutFB:(id)sender;
 
 @end

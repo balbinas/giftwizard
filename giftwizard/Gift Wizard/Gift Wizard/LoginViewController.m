@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "AppDelegate.h"
 
 @interface LoginViewController ()
 
@@ -35,5 +36,11 @@
 */
 
 - (IBAction)clickLogIntoFB:(id)sender {
+    self.btFBLogin.enabled = NO;
+    
+    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    [appDelegate openFBSession];
+    
+    self.btFBLogin.enabled = YES;
 }
 @end

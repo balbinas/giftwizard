@@ -80,11 +80,30 @@
 
 - (void)showLoginView
 {
-    //LoginViewController *loginView = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    LoginViewController *loginView =[storyboard instantiateViewControllerWithIdentifier:@"LoginView"];
-    
-    [self.window.rootViewController presentViewController: loginView animated:NO completion:nil];
+    //when you first open the app and log in with fb
+    if ([[self.window.rootViewController presentedViewController] isKindOfClass:[LoginViewController class]]){
+        NSLog(@"entre1");
+        
+        [[self.window.rootViewController presentedViewController] dismissViewControllerAnimated:NO completion:nil];
+    }
+    //when it's already logged in when you enter the app and logout
+    else if ([self.window.rootViewController presentedViewController]) {
+        NSLog(@"entre2");
+        [self.window.rootViewController dismissViewControllerAnimated:NO completion:^{
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            LoginViewController *loginView =[storyboard instantiateViewControllerWithIdentifier:@"LoginView"];
+            
+            [self.window.rootViewController presentViewController: loginView animated:NO completion:nil];
+        }];
+    }
+    //first time login with fb
+    else {
+        NSLog(@"entre3");
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        LoginViewController *loginView =[storyboard instantiateViewControllerWithIdentifier:@"LoginView"];
+        
+        [self.window.rootViewController presentViewController: loginView animated:NO completion:nil];
+    }
 }
 
 #pragma mark - Facebook login

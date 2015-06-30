@@ -7,6 +7,10 @@
 //
 
 #import "SettingsViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface SettingsViewController ()
 
@@ -34,6 +38,18 @@
 }
 */
 
-- (IBAction)LogOutFB:(id)sender {
+- (void)LogOutFB {
+    FBSDKLoginManager *logout = [[FBSDKLoginManager alloc] init];
+    [logout logOut];
+    
+    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    [appDelegate showLoginView];
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0 && indexPath.row == 1)
+    {
+        [self LogOutFB];
+    }
+}
+
 @end
