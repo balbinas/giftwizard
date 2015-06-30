@@ -24,6 +24,7 @@
 		37E9604F1B422D5000FDD219 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9604E1B422D5000FDD219 /* MenuViewController.m */; };
 		37E960531B422DF500FDD219 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E960521B422DF500FDD219 /* MainViewController.m */; };
 		37E960571B422E4500FDD219 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E960561B422E4500FDD219 /* EditProfileViewController.m */; };
+		37E9605B1B427DAE00FDD219 /* FBLoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E9605A1B427DAE00FDD219 /* FBLoginButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		37E960521B422DF500FDD219 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		37E960551B422E4500FDD219 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
 		37E960561B422E4500FDD219 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		37E9605A1B427DAE00FDD219 /* FBLoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLoginButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		37E960401B42269D00FDD219 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				37E9605A1B427DAE00FDD219 /* FBLoginButton.png */,
 				37E960411B4226BE00FDD219 /* LoginViewController.h */,
 				37E960421B4226BE00FDD219 /* LoginViewController.m */,
 			);
@@ -302,6 +305,7 @@
 			files = (
 				37E9603F1B42267A00FDD219 /* logo.jpg in Resources */,
 				37E9601D1B42231200FDD219 /* Main.storyboard in Resources */,
+				37E9605B1B427DAE00FDD219 /* FBLoginButton.png in Resources */,
 				37E960221B42231200FDD219 /* LaunchScreen.xib in Resources */,
 				37E9601F1B42231200FDD219 /* Images.xcassets in Resources */,
 			);

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface ProfileViewController : UIViewController
+@property (weak, nonatomic) IBOutlet FBSDKProfilePictureView *profilePicture;
 
 @end

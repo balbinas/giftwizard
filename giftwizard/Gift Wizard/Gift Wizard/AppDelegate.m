@@ -118,7 +118,7 @@
             // Handle cancellations
         } else {
             UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            ViewController *mainView =[storyboard instantiateViewControllerWithIdentifier:@"MainView"];
+            ViewController *mainView =[storyboard instantiateViewControllerWithIdentifier:@"MainViewNavigationController"];
             
             if ([self.window.rootViewController presentedViewController]) {
                 [[self.window.rootViewController presentedViewController] presentViewController:mainView animated:NO completion:nil];
