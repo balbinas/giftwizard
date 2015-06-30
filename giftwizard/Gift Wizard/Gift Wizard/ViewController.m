@@ -2,11 +2,13 @@
 //  ViewController.m
 //  Gift Wizard
 //
-//  Created by Balbina Santana on 6/11/15.
+//  Created by Balbina Santana on 6/29/15.
 //  Copyright (c) 2015 Balbina Santana. All rights reserved.
 //
 
 #import "ViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface ViewController ()
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "377A85061B2A1FD700CD7F79"
+               BlueprintIdentifier = "37E9600D1B42231200FDD219"
                BuildableName = "Gift Wizard.app"
                BlueprintName = "Gift Wizard"
                ReferencedContainer = "container:Gift Wizard.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "377A85221B2A1FD800CD7F79"
+               BlueprintIdentifier = "37E960261B42231300FDD219"
                BuildableName = "Gift WizardTests.xctest"
                BlueprintName = "Gift WizardTests"
                ReferencedContainer = "container:Gift Wizard.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "377A85221B2A1FD800CD7F79"
+               BlueprintIdentifier = "37E960261B42231300FDD219"
                BuildableName = "Gift WizardTests.xctest"
                BlueprintName = "Gift WizardTests"
                ReferencedContainer = "container:Gift Wizard.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "377A85061B2A1FD700CD7F79"
+            BlueprintIdentifier = "37E9600D1B42231200FDD219"
             BuildableName = "Gift Wizard.app"
             BlueprintName = "Gift Wizard"
             ReferencedContainer = "container:Gift Wizard.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "377A85061B2A1FD700CD7F79"
+            BlueprintIdentifier = "37E9600D1B42231200FDD219"
             BuildableName = "Gift Wizard.app"
             BlueprintName = "Gift Wizard"
             ReferencedContainer = "container:Gift Wizard.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "377A85061B2A1FD700CD7F79"
+            BlueprintIdentifier = "37E9600D1B42231200FDD219"
             BuildableName = "Gift Wizard.app"
             BlueprintName = "Gift Wizard"
             ReferencedContainer = "container:Gift Wizard.xcodeproj">
