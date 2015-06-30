@@ -12,6 +12,9 @@
 #import "LoginViewController.h"
 #import "ViewController.h"
 #import "SettingsViewController.h"
+#import "EditProfileViewController.h"
+#import "MainViewController.h"
+#import "ProfileViewController.h"
 
 @interface AppDelegate ()
 

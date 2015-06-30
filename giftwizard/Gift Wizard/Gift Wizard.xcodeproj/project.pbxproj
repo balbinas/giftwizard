@@ -20,6 +20,10 @@
 		37E9603F1B42267A00FDD219 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E9603E1B42267A00FDD219 /* logo.jpg */; };
 		37E960431B4226BE00FDD219 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E960421B4226BE00FDD219 /* LoginViewController.m */; };
 		37E960471B4227BF00FDD219 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E960461B4227BF00FDD219 /* SettingsViewController.m */; };
+		37E9604B1B422D2000FDD219 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9604A1B422D2000FDD219 /* ProfileViewController.m */; };
+		37E9604F1B422D5000FDD219 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9604E1B422D5000FDD219 /* MenuViewController.m */; };
+		37E960531B422DF500FDD219 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E960521B422DF500FDD219 /* MainViewController.m */; };
+		37E960571B422E4500FDD219 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E960561B422E4500FDD219 /* EditProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		37E960421B4226BE00FDD219 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		37E960451B4227BF00FDD219 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		37E960461B4227BF00FDD219 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		37E960491B422D2000FDD219 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		37E9604A1B422D2000FDD219 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		37E9604D1B422D5000FDD219 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		37E9604E1B422D5000FDD219 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		37E960511B422DF500FDD219 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		37E960521B422DF500FDD219 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		37E960551B422E4500FDD219 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		37E960561B422E4500FDD219 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,10 @@
 		37E960101B42231200FDD219 /* Gift Wizard */ = {
 			isa = PBXGroup;
 			children = (
+				37E960541B422E2F00FDD219 /* Edit Profile */,
+				37E960501B422DD300FDD219 /* Main */,
+				37E9604C1B422D3800FDD219 /* Menu */,
+				37E960481B422D0F00FDD219 /* Profile */,
 				37E960441B42278100FDD219 /* Settings */,
 				37E960401B42269D00FDD219 /* Login */,
 				37E9603E1B42267A00FDD219 /* logo.jpg */,
@@ -166,6 +182,42 @@
 				37E960461B4227BF00FDD219 /* SettingsViewController.m */,
 			);
 			name = Settings;
+			sourceTree = "<group>";
+		};
+		37E960481B422D0F00FDD219 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				37E960491B422D2000FDD219 /* ProfileViewController.h */,
+				37E9604A1B422D2000FDD219 /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		37E9604C1B422D3800FDD219 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				37E9604D1B422D5000FDD219 /* MenuViewController.h */,
+				37E9604E1B422D5000FDD219 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		37E960501B422DD300FDD219 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				37E960511B422DF500FDD219 /* MainViewController.h */,
+				37E960521B422DF500FDD219 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		37E960541B422E2F00FDD219 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				37E960551B422E4500FDD219 /* EditProfileViewController.h */,
+				37E960561B422E4500FDD219 /* EditProfileViewController.m */,
+			);
+			name = "Edit Profile";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +324,11 @@
 				37E960431B4226BE00FDD219 /* LoginViewController.m in Sources */,
 				37E9601A1B42231200FDD219 /* ViewController.m in Sources */,
 				37E960471B4227BF00FDD219 /* SettingsViewController.m in Sources */,
+				37E960531B422DF500FDD219 /* MainViewController.m in Sources */,
 				37E960171B42231200FDD219 /* AppDelegate.m in Sources */,
+				37E960571B422E4500FDD219 /* EditProfileViewController.m in Sources */,
+				37E9604F1B422D5000FDD219 /* MenuViewController.m in Sources */,
+				37E9604B1B422D2000FDD219 /* ProfileViewController.m in Sources */,
 				37E960141B42231200FDD219 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +534,7 @@
 				37E960331B42231300FDD219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37E960341B42231300FDD219 /* Build configuration list for PBXNativeTarget "Gift WizardTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +543,7 @@
 				37E960361B42231300FDD219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

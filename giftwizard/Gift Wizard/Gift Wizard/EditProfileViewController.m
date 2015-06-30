@@ -1,18 +1,18 @@
 //
-//  SettingsViewController.m
+//  EditProfileViewController.m
 //  Gift Wizard
 //
 //  Created by Balbina Santana on 6/29/15.
 //  Copyright (c) 2015 Balbina Santana. All rights reserved.
 //
 
-#import "SettingsViewController.h"
+#import "EditProfileViewController.h"
 
-@interface SettingsViewController ()
+@interface EditProfileViewController ()
 
 @end
 
-@implementation SettingsViewController
+@implementation EditProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,6 +34,4 @@
 }
 */
 
-- (IBAction)LogOutFB:(id)sender {
-}
 @end
